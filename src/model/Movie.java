@@ -11,4 +11,16 @@ package model;
  */
 public class Movie {
     
+    //defining attributes
+    private int movieId;
+    private String title;
+    private int year;
+    private String description;
+    private int duration;
+    
+    private static void movie(){
+        
+        
+    }
+    
 }
