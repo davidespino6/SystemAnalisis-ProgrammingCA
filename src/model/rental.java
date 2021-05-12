@@ -9,7 +9,7 @@ package model;
  *
  * @author davidespino
  */
-public class Rental {
+public class rental {
     
     private String rent;
     private String returN;

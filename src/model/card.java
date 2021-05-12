@@ -9,6 +9,6 @@ package model;
  *
  * @author davidespino
  */
-public class Card {
+public class card {
     
 }

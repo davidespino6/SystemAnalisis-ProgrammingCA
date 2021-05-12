@@ -4,23 +4,17 @@
  * and open the template in the editor.
  */
 package model;
+import view.*;
 
 /**
  *
  * @author davidespino
  */
-public class Movie {
+public class main {
     
-    //defining attributes
-    private int movieId;
-    private String title;
-    private int year;
-    private String description;
-    private int duration;
-    
-    private static void movie(){
-        
-        
+    public static void main(String[] args){
+            homePage window = new homePage();
+            window.setVisible(true);
     }
     
 }

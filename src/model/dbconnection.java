@@ -15,7 +15,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Dbconnection {
+public class dbconnection {
 
     /**
      * @param args
@@ -26,7 +26,7 @@ public class Dbconnection {
             String dbServer = "jdbc:mysql://apontejaj.com:3306/David_2019140?useSSL=false";
             String user = "David_2019140";
             String password = "2019140";
-            String query = "SELECT * FROM Movies";
+            String query = "SELECT * FROM moviesXtraVision";
 
             // Get a connection to the database
             Connection conn = DriverManager.getConnection(dbServer, user, password);
@@ -39,7 +39,7 @@ public class Dbconnection {
 
             // Loop through the result set
             while (rs.next()) {
-                System.out.println(rs.getString("MovieId") + "\t" + rs.getString("Title") + "\t" + rs.getString("Duration")+ "\t" + rs.getString("Genre"));
+                System.out.println(rs.getString("idmovies") + "\t" + rs.getString("title") + "\t" + rs.getString("duration")+ "\t" + rs.getString("genre"));
             }
 
             // Close the result set, statement and the connection
